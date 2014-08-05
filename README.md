@@ -28,7 +28,7 @@ I use `destroy` functions in my classes which perform any clean-up (removing lis
 ```
 public function destroy():void
 {
-  //destroy code
+	//destroy code
 	ObjectPool.addToPool(this);
 }
 ```
